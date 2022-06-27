@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:text="주문자 이름 / 연락처"></TextView>
+
+    <EditText
+        android:id="@+id/Edtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="김정통 / 010-1234-5678"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:text="주소"></TextView>
+
+    <EditText
+        android:id="@+id/Edtaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="상세주소까지 정확하게 입력해 주세요."
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"></EditText>
+</LinearLayout>
